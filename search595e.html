@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class='v2' dir='ltr' lang='sl'>
 
-<!-- Mirrored from klenovsekboris.blogspot.com/search?updated-max=2019-01-28T09:38:00-08:00&max-results=2&reverse-paginate=true&start=2&by-date=false by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Nov 2024 16:31:09 GMT -->
+<!-- Mirrored from klenovsekboris.blogspot.com/search?updated-max=2019-01-28T09:38:00-08:00&max-results=2&reverse-paginate=true&start=2&by-date=false by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Nov 2024 22:31:39 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 <link href='https://www.blogger.com/static/v1/widgets/3566091532-css_bundle_v2.css' rel='stylesheet' type='text/css'/>
@@ -25,6 +25,106 @@ Name:     Picture Window
 Designer: Blogger
 URL:      www.blogger.com
 ----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#1a222a"/>
+<Variable name="body.background" description="Body Background" type="background"
+color="#e5e5e5" default="#111111 url(//themes.googleusercontent.com/image?id=1OACCYOE0-eoTRTfsBuX1NMN9nz599ufI1Jh0CggPFA_sK80AGkIr8pLtYRpNUKPmwtEa) repeat-x fixed top center"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#333333"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#296695"/>
+<Variable name="header.background.color" description="Header Background" type="color" default="transparent"/>
+<Variable name="post.background.color" description="Post Background" type="color" default="#ffffff"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#336699"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#6699cc"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Title Font" type="font"
+default="normal normal 36px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="header.text.color" description="Text Color" type="color" default="#ffffff" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#ffffff"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#1862dc"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="transparent"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="transparent"/>
+<Variable name="tabs.separator.color" description="Separator Color" type="color" default="transparent"/>
+</Group>
+<Group description="Post Title" selector="h3.post-title, .comments h4">
+<Variable name="post.title.font" description="Title Font" type="font"
+default="normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+</Group>
+<Group description="Date Header" selector=".date-header">
+<Variable name="date.header.color" description="Text Color" type="color" default="#6e6e6e"/>
+</Group>
+<Group description="Post" selector=".post">
+<Variable name="post.footer.text.color" description="Footer Text Color" type="color" default="#999999"/>
+<Variable name="post.border.color" description="Border Color" type="color" default="#dddddd"/>
+</Group>
+<Group description="Gadgets" selector="h2">
+<Variable name="widget.title.font" description="Title Font" type="font"
+default="bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#888888"/>
+</Group>
+<Group description="Footer" selector=".footer-outer">
+<Variable name="footer.text.color" description="Text Color" type="color" default="#cccccc"/>
+<Variable name="footer.widget.title.text.color" description="Gadget Title Color" type="color" default="#aaaaaa"/>
+</Group>
+<Group description="Footer Links" selector=".footer-outer">
+<Variable name="footer.link.color" description="Link Color" type="color" default="#99ccee"/>
+<Variable name="footer.link.visited.color" description="Visited Color" type="color" default="#77aaee"/>
+<Variable name="footer.link.hover.color" description="Hover Color" type="color" default="#33aaff"/>
+</Group>
+<Variable name="content.margin" description="Content Margin Top" type="length" default="20px" min="0" max="100px"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="0" min="0" max="100px"/>
+<Variable name="content.background" description="Content Background" type="background"
+default="transparent none repeat scroll top left"/>
+<Variable name="content.border.radius" description="Content Border Radius" type="length" default="0" min="0" max="100px"/>
+<Variable name="content.shadow.spread" description="Content Shadow Spread" type="length" default="0" min="0" max="100px"/>
+<Variable name="header.padding" description="Header Padding" type="length" default="0" min="0" max="100px"/>
+<Variable name="header.background.gradient" description="Header Gradient" type="url"
+default="none"/>
+<Variable name="header.border.radius" description="Header Border Radius" type="length" default="0" min="0" max="100px"/>
+<Variable name="main.border.radius.top" description="Main Border Radius" type="length" default="20px" min="0" max="100px"/>
+<Variable name="footer.border.radius.top" description="Footer Border Radius Top" type="length" default="0" min="0" max="100px"/>
+<Variable name="footer.border.radius.bottom" description="Footer Border Radius Bottom" type="length" default="20px" min="0" max="100px"/>
+<Variable name="region.shadow.spread" description="Main and Footer Shadow Spread" type="length" default="3px" min="0" max="100px"/>
+<Variable name="region.shadow.offset" description="Main and Footer Shadow Offset" type="length" default="1px" min="-50px" max="50px"/>
+<Variable name="tabs.background.gradient" description="Tab Background Gradient" type="url" default="none"/>
+<Variable name="tab.selected.background.gradient" description="Selected Tab Background" type="url"
+default="url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png)"/>
+<Variable name="tab.background" description="Tab Background" type="background"
+default="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/black50.png) repeat scroll top left"/>
+<Variable name="tab.border.radius" description="Tab Border Radius" type="length" default="10px" min="0" max="100px"/>
+<Variable name="tab.first.border.radius" description="First Tab Border Radius" type="length" default="10px" min="0" max="100px"/>
+<Variable name="tabs.border.radius" description="Tabs Border Radius" type="length" default="0" min="0" max="100px"/>
+<Variable name="tabs.spacing" description="Tab Spacing" type="length" default=".25em" min="0" max="10em"/>
+<Variable name="tabs.margin.bottom" description="Tab Margin Bottom" type="length" default="0" min="0" max="100px"/>
+<Variable name="tabs.margin.sides" description="Tab Margin Sides" type="length" default="20px" min="0" max="100px"/>
+<Variable name="main.background" description="Main Background" type="background"
+default="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png) repeat scroll top left"/>
+<Variable name="main.padding.sides" description="Main Padding Sides" type="length" default="20px" min="0" max="100px"/>
+<Variable name="footer.background" description="Footer Background" type="background"
+default="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/black50.png) repeat scroll top left"/>
+<Variable name="post.margin.sides" description="Post Margin Sides" type="length" default="-20px" min="-50px" max="50px"/>
+<Variable name="post.border.radius" description="Post Border Radius" type="length" default="5px" min="0" max="100px"/>
+<Variable name="widget.title.text.transform" description="Widget Title Text Transform" type="string" default="uppercase"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left"/>
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
 /* Content
 ----------------------------------------------- */
 body {
@@ -427,7 +527,7 @@ margin-left: 32px;
 /* Last tag covers anything over one higher than the previous max-size cap. */
 @media (min-width: 1201px) { body {background-image:url(\/\/themes.googleusercontent.com\/image?id=1-QeziT_xhEvxfBl8wPx5qvDh7FrTqJvLJR2vQYW-ZkaGhxc2p1Zzl4P1_LVa2rRTUapD&options=w1600);}}
   </style>
-<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4972270896425558817&amp;zx=a45c1e46-f7e6-4b0c-894f-c84c0c292ad6' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4972270896425558817&amp;zx=a45c1e46-f7e6-4b0c-894f-c84c0c292ad6' rel='stylesheet'/></noscript>
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4972270896425558817&amp;zx=99d2aacb-de77-4c45-9cf5-0fc30b18d238' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4972270896425558817&amp;zx=99d2aacb-de77-4c45-9cf5-0fc30b18d238' rel='stylesheet'/></noscript>
 <meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
 <meta name='google-adsense-platform-domain' content='blogspot.com'/>
 
@@ -442,7 +542,7 @@ margin-left: 32px;
 
 
 </head>
-<body class='loading variant-shade'>
+<body class='loading'>
 <div class='navbar no-items section' id='navbar' name='Vrstica za krmarjenje'>
 </div>
 <div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
@@ -800,10 +900,6 @@ at
 </div>
 <div class='clear'></div>
 <div class='blog-feeds'>
-<div class='feed-links'>
-Naročite se na:
-<a class='feed-link' href='feeds/posts/default' target='_blank' type='application/atom+xml'>Objave (Atom)</a>
-</div>
 </div>
 </div></div>
 </div>
@@ -909,7 +1005,7 @@ Naročite se na:
 <!-- outside of the include in order to lock Attribution widget -->
 <div class='foot section' id='footer-3' name='Noga'><div class='widget Attribution' data-version='1' id='Attribution1'>
 <div class='widget-content' style='text-align: center;'>
-Tema Okvir slike. Avtor slik v temi: <a href='http://www.istockphoto.com/file_closeup.php?id=5972475&amp;platform=blogger' target='_blank'>Storman</a>. Zagotavlja <a href='https://www.blogger.com/' target='_blank'>Blogger</a>.
+Avtor slik v temi: <a href='http://www.istockphoto.com/file_closeup.php?id=5972475&amp;platform=blogger' target='_blank'>Storman</a>. Zagotavlja <a href='https://www.blogger.com/' target='_blank'>Blogger</a>.
 </div>
 <div class='clear'></div>
 </div></div>
@@ -949,8 +1045,8 @@ Tema Okvir slike. Avtor slik v temi: <a href='http://www.istockphoto.com/file_cl
 
 <script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2591855913-widgets.js"></script>
 <script type='text/javascript'>
-window['__wavt'] = 'AOuZoY5dJ4lASiJmEOPv6vv7LPGyIP134w:1731083464861';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d4972270896425558817','//klenovsekboris.blogspot.com/search?updated-max\x3d2019-01-28T09:38:00-08:00\x26max-results\x3d2\x26reverse-paginate\x3dtrue\x26start\x3d2\x26by-date\x3dfalse','4972270896425558817');
-_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '4972270896425558817', 'title': 'MaKlen', 'url': 'http://klenovsekboris.blogspot.com/search?updated-max\x3d2019-01-28T09:38:00-08:00\x26max-results\x3d2\x26reverse-paginate\x3dtrue\x26start\x3d2\x26by-date\x3dfalse', 'canonicalUrl': 'http://klenovsekboris.blogspot.com/search?updated-max\x3d2019-01-28T09:38:00-08:00\x26max-results\x3d2\x26reverse-paginate\x3dtrue\x26start\x3d2\x26by-date\x3dfalse', 'homepageUrl': 'http://klenovsekboris.blogspot.com/', 'searchUrl': 'http://klenovsekboris.blogspot.com/search', 'canonicalHomepageUrl': 'http://klenovsekboris.blogspot.com/', 'blogspotFaviconUrl': 'http://klenovsekboris.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'sl', 'localeUnderscoreDelimited': 'sl', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22MaKlen - Atom\x22 href\x3d\x22http://klenovsekboris.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22MaKlen - RSS\x22 href\x3d\x22http://klenovsekboris.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22MaKlen - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/4972270896425558817/posts/default\x22 /\x3e\n', 'meTag': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'adsenseAutoAds': false, 'boqCommentIframeForm': true, 'loginRedirectParam': '', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/6eb7ce967db05cf0', 'plusOneApiSrc': 'https://apis.google.com/js/platform.js', 'disableGComments': true, 'interstitialAccepted': false, 'sharing': {'platforms': [{'name': 'Pridobi povezavo', 'key': 'link', 'shareMessage': 'Pridobi povezavo', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Skupna raba v storitvi Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Skupna raba v storitvi Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Skupna raba v storitvi Pinterest', 'target': 'pinterest'}, {'name': 'E-po\u0161ta', 'key': 'email', 'shareMessage': 'E-po\u0161ta', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 0, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27sl\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': true, 'jumpLinkMessage': 'Read more \xbb', 'pageType': 'index', 'pageName': '', 'pageTitle': 'MaKlen'}}, {'name': 'features', 'data': {}}, {'name': 'messages', 'data': {'edit': 'Uredi', 'linkCopiedToClipboard': 'Povezava je kopirana v odlo\u017ei\u0161\u010de.', 'ok': 'V redu', 'postLink': 'Povezava objave'}}, {'name': 'template', 'data': {'name': 'Picture Window', 'localizedName': 'Okvir slike', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': false, 'variant': 'shade', 'variantId': 'shade'}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'MaKlen', 'description': '', 'url': 'http://klenovsekboris.blogspot.com/search?updated-max\x3d2019-01-28T09:38:00-08:00\x26max-results\x3d2\x26reverse-paginate\x3dtrue\x26start\x3d2\x26by-date\x3dfalse', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': false, 'isArchive': false, 'isSearch': true, 'isLabelSearch': false, 'search': {}}}]);
+window['__wavt'] = 'AOuZoY6chONPvsPIuVbRjMJ9GwobH3BLlw:1731191494928';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d4972270896425558817','//klenovsekboris.blogspot.com/search?updated-max\x3d2019-01-28T09:38:00-08:00\x26max-results\x3d2\x26reverse-paginate\x3dtrue\x26start\x3d2\x26by-date\x3dfalse','4972270896425558817');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '4972270896425558817', 'title': 'MaKlen', 'url': 'http://klenovsekboris.blogspot.com/search?updated-max\x3d2019-01-28T09:38:00-08:00\x26max-results\x3d2\x26reverse-paginate\x3dtrue\x26start\x3d2\x26by-date\x3dfalse', 'canonicalUrl': 'http://klenovsekboris.blogspot.com/search?updated-max\x3d2019-01-28T09:38:00-08:00\x26max-results\x3d2\x26reverse-paginate\x3dtrue\x26start\x3d2\x26by-date\x3dfalse', 'homepageUrl': 'http://klenovsekboris.blogspot.com/', 'searchUrl': 'http://klenovsekboris.blogspot.com/search', 'canonicalHomepageUrl': 'http://klenovsekboris.blogspot.com/', 'blogspotFaviconUrl': 'http://klenovsekboris.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'sl', 'localeUnderscoreDelimited': 'sl', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22MaKlen - Atom\x22 href\x3d\x22http://klenovsekboris.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22MaKlen - RSS\x22 href\x3d\x22http://klenovsekboris.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22MaKlen - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/4972270896425558817/posts/default\x22 /\x3e\n', 'meTag': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'adsenseAutoAds': false, 'boqCommentIframeForm': true, 'loginRedirectParam': '', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/6eb7ce967db05cf0', 'plusOneApiSrc': 'https://apis.google.com/js/platform.js', 'disableGComments': true, 'interstitialAccepted': false, 'sharing': {'platforms': [{'name': 'Pridobi povezavo', 'key': 'link', 'shareMessage': 'Pridobi povezavo', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Skupna raba v storitvi Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Skupna raba v storitvi Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Skupna raba v storitvi Pinterest', 'target': 'pinterest'}, {'name': 'E-po\u0161ta', 'key': 'email', 'shareMessage': 'E-po\u0161ta', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 0, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27sl\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': true, 'jumpLinkMessage': 'Read more \xbb', 'pageType': 'index', 'pageName': '', 'pageTitle': 'MaKlen'}}, {'name': 'features', 'data': {}}, {'name': 'messages', 'data': {'edit': 'Uredi', 'linkCopiedToClipboard': 'Povezava je kopirana v odlo\u017ei\u0161\u010de.', 'ok': 'V redu', 'postLink': 'Povezava objave'}}, {'name': 'template', 'data': {'isResponsive': false, 'isAlternateRendering': false, 'isCustom': false}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'MaKlen', 'description': '', 'url': 'http://klenovsekboris.blogspot.com/search?updated-max\x3d2019-01-28T09:38:00-08:00\x26max-results\x3d2\x26reverse-paginate\x3dtrue\x26start\x3d2\x26by-date\x3dfalse', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': false, 'isArchive': false, 'isSearch': true, 'isLabelSearch': false, 'search': {}}}]);
 _WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', document.getElementById('Header1'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_TextListView', new _WidgetInfo('TextList1', 'crosscol', document.getElementById('TextList1'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/3274913553-lbx__sl.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/13464135-lightbox_bundle.css'}, 'displayModeFull'));
@@ -964,5 +1060,5 @@ _WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1
 </script>
 </body>
 
-<!-- Mirrored from klenovsekboris.blogspot.com/search?updated-max=2019-01-28T09:38:00-08:00&max-results=2&reverse-paginate=true&start=2&by-date=false by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Nov 2024 16:31:09 GMT -->
+<!-- Mirrored from klenovsekboris.blogspot.com/search?updated-max=2019-01-28T09:38:00-08:00&max-results=2&reverse-paginate=true&start=2&by-date=false by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Nov 2024 22:31:39 GMT -->
 </html>
